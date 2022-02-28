@@ -35,7 +35,6 @@ const DetailsPage: React.FC = () => {
         return response.data;
       })
       .then((data: ICharacterDataWrapper) => {
-        console.log(data);
         if (data.data?.results) {
           setComics(data.data.results);
         }
