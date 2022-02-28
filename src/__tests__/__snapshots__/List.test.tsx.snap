@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<List /> renders correctly 1`] = `
+<div
+  className="c-list container"
+  data-testid="link-list"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="d-flex justify-content-center"
+    >
+      <img
+        alt="nothing to list"
+        className="w-50 mt-5 justify-center"
+        src="nothing.jpeg"
+      />
+    </div>
+  </div>
+</div>
+`;

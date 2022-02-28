@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Hero /> renders correctly 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-lg-9"
+  >
+    <h1>
+      Fake Hero
+    </h1>
+    <p>
+      Fake hero description
+    </p>
+  </div>
+  <div
+    className="col-lg-3"
+  >
+    <img
+      alt="nothing to list"
+      className="w-100"
+      src="."
+    />
+  </div>
+</div>
+`;

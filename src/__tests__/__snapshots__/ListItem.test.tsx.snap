@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListItem /> renders correctly 1`] = `
+<div
+  className="c-list-item"
+  data-testid="list-item"
+>
+  <a
+    href="/details/undefined"
+    onClick={[Function]}
+  >
+    <div
+      className="c-list-item__image"
+    >
+      <img
+        alt="Fake Hero"
+        className="w-100"
+        src="."
+      />
+    </div>
+    <div
+      className="c-list-item__info"
+    >
+      <h5
+        className="c-list-item__info-header"
+      >
+        Fake Hero
+      </h5>
+    </div>
+  </a>
+</div>
+`;

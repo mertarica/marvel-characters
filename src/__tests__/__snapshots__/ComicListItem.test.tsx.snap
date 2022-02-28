@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ComicListItem /> renders correctly 1`] = `
+<div
+  className="c-comic-list-item row"
+>
+  <div
+    className="col-lg-3"
+  >
+    <img
+      alt="Fake Hero cover"
+      className="w-100"
+      src="."
+    />
+  </div>
+  <div
+    className="col-lg-9"
+  >
+    <h3
+      className="c-comic-list-item__header"
+    >
+      Fake Hero
+    </h3>
+    <p
+      className="c-comic-list-item__description"
+    >
+      Fake hero description
+    </p>
+  </div>
+</div>
+`;

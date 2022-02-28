@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoadSpinner /> renders correctly 1`] = `
+<div
+  className="c-load-spinner container"
+>
+  <div
+    className="c-load-spinner__ellipsis"
+  >
+    <div />
+    <div />
+    <div />
+    <div />
+  </div>
+</div>
+`;

@@ -1,7 +1,7 @@
 import React from "react";
-import Container from "react-bootstrap/esm/Container";
+import Container from "react-bootstrap/Container";
 
-const Loader: React.FC = () => {
+const LoadSpinner: React.FC = () => {
   return (
     <Container className="c-load-spinner">
       <div className="c-load-spinner__ellipsis">
@@ -14,4 +14,4 @@ const Loader: React.FC = () => {
   );
 };
 
-export default Loader;
+export default LoadSpinner;

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> renders correctly 1`] = `
+<footer
+  className="c-footer"
+  data-testid="footer"
+>
+  <div
+    className="container-fluid"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-12"
+      >
+        <span
+          className="c-footer__brand"
+        >
+          © 
+          2022
+        </span>
+      </div>
+    </div>
+  </div>
+</footer>
+`;

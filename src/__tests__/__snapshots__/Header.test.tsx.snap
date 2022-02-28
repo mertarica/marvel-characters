@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> renders correctly 1`] = `
+<nav
+  className="c-header navbar navbar-expand navbar-light"
+  data-testid="header"
+>
+  <div
+    className="container"
+  >
+    <a
+      className="navbar-brand"
+      href="/"
+    >
+      <img
+        alt="Path Logo"
+        src="path-logo.svg"
+      />
+    </a>
+    <button
+      aria-label="Toggle navigation"
+      className="navbar-toggler collapsed"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      aria-expanded={null}
+      className="justify-content-end navbar-collapse collapse"
+    >
+      <span
+        className="c-header__text navbar-text"
+      >
+        <strong>
+          MARVEL
+        </strong>
+        <span
+          className="c-header__text--light"
+        >
+          Heroes
+        </span>
+      </span>
+    </div>
+  </div>
+</nav>
+`;
