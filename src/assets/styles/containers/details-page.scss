@@ -1,0 +1,17 @@
+.c-details-page {
+  max-width: $page-max-width;
+  flex-direction: column;
+  margin-bottom: 75px;
+  &__back-link {
+    color: $red;
+    text-decoration: none;
+    width: fit-content;
+    &:before {
+      content: "<";
+      margin-right: 0.5rem;
+    }
+    &:hover {
+      color: $red-20;
+    }
+  }
+}

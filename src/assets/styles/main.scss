@@ -1,0 +1,37 @@
+body {
+  margin: 0 !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+//partially imports bootstrap for less scss lines
+@import 'bootstrap/scss/bootstrap-grid';
+@import 'bootstrap/scss/bootstrap-reboot';
+@import 'bootstrap/scss/bootstrap-utilities';
+@import 'bootstrap/scss/nav';
+@import 'bootstrap/scss/navbar';
+@import 'bootstrap/scss/buttons';
+@import 'bootstrap/scss/dropdown';
+
+//our bootstrap overrides
+@import "./bootstrap-override.scss";
+
+//our style files for components
+@import "./components/comic-list-item.scss";
+@import "./components/footer.scss";
+@import "./components/header.scss";
+@import "./components/load-spinner.scss";
+@import "./components/list.scss";
+@import "./components/list-item.scss";
+
+//our style files for
+@import "./containers/details-page.scss";
+@import "./containers/home.scss";

@@ -1,0 +1,98 @@
+// New breakpoints
+//
+//
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1920px,
+);
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1880px,
+);
+
+$page-max-width: 960px;
+
+$grid-gutter-width: 50px !default;
+
+// COLORS
+//
+//
+
+$red: #e4003a;
+$red-60: #ea3f6b;
+$red-40: #f17f9c;
+$red-20: #f8bfcd;
+$red-error: #ff005c;
+
+$tuna-gray: #303642;
+$tuna-gray-80: #555d71;
+$tuna-gray-60: #898e9a;
+$tuna-gray-40: #dadada;
+$tuna-gray-20: #f6f6f6;
+$tuna-gray-10: #e9eaed;
+
+$slate-gray: #7783a0;
+$slate-gray-60: #99a2b7;
+$slate-gray-40: #bbc1cf;
+$slate-gray-20: #dde0e7;
+$slate-gray-10: #f1f3f5;
+$slate-gray-5: #f8f9fb;
+
+$white: #ffffff;
+$black: #000;
+$light-transparent: rgba(0, 0, 0, 0.3);
+
+$primary: $red;
+$secondary: $tuna-gray;
+$light: $tuna-gray-20;
+$dark: $tuna-gray;
+$gray: $slate-gray;
+$gray-dark: $tuna-gray;
+$transparent: transparent;
+
+$theme-colors: () !default;
+$theme-colors: map-merge(
+  (
+    "red": $red,
+    "tuna-grey": $tuna-gray,
+    "slate-grey": $slate-gray,
+    "white": $white,
+    "transparent": $transparent,
+  ),
+  $theme-colors
+);
+
+// TYPOGRAPHY
+//
+//
+$font-family-sans-serif: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+
+$headings-font-family: Nimbus-sans, "Nimbus Sans", Roboto, -apple-system,
+  BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans",
+  sans-serif;
+$headings-font-weight: 700;
+
+$font-size-base: 1.125rem;
+$h1-font-size: 5rem;
+$h2-font-size: 3rem;
+$h3-font-size: 2rem;
+$h4-font-size: 1.5rem;
+
+.row {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}

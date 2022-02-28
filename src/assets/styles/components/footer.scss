@@ -1,0 +1,16 @@
+.c-footer {
+  background: $tuna-gray-20;
+  position: fixed;
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+  align-items: center;
+  text-align: center;
+  z-index: 3;
+  &__brand {
+    color: $tuna-gray;
+    font-weight: bold;
+    font-size: 0.7rem;
+  }
+}

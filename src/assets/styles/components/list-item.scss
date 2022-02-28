@@ -1,0 +1,40 @@
+.c-list-item {
+  a {
+    text-decoration: none;
+  }
+  margin: 0.5rem 0.25rem;
+  &:hover {
+    box-shadow: 0px 8px 24px rgba(15, 17, 21, 0.1);
+    border-radius: 45px;
+    cursor: pointer;
+  }
+  &__image {
+    border-bottom: 2px red solid;
+    img {
+      @include media-breakpoint-up(lg) {
+        max-height: 160px;
+      }
+      object-fit: cover;
+    }
+  }
+  &__info {
+    min-height: 100px;
+    background-color: black;
+    padding: 0.5rem;
+    border-radius: 0 0 45px 0;
+    &-header {
+      color: $slate-gray-5;
+      font-weight: 700;
+      margin: 0;
+    }
+    &-bullets {
+      color: $tuna-gray-80;
+      list-style: circle;
+    }
+    &-detail {
+      color: $tuna-gray-80;
+      float: right;
+      text-decoration: underline;
+    }
+  }
+}
