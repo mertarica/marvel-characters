@@ -11,11 +11,11 @@ type Props = {
 const Hero = ({ character }: Props) => {
   return (
     <Row>
-      <Col lg={9}>
+      <Col lg={9} className="order-lg-1 order-2">
         <h1>{character.name}</h1>
         <p>{character.description}</p>
       </Col>
-      <Col lg={3}>
+      <Col lg={3} className="order-lg-2 order-1">
         <img
           src={`${character.thumbnail?.path}.${character.thumbnail?.extension}`}
           alt="nothing to list"
