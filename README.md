@@ -12,7 +12,7 @@ This repository was created for the assessment of Path. The project was generall
 * Clone repository to your local
 
 ``` bash
-git clone https://mcaricadev@dev.azure.com/mcaricadev/hb-assessment/_git/hb-assessment
+git clone https://github.com/mertarica/marvel-characters
 ```
  
 
@@ -21,7 +21,7 @@ git clone https://mcaricadev@dev.azure.com/mcaricadev/hb-assessment/_git/hb-asse
 * Install dependencies
 
 ``` bash
-cd hb-assessment && npm i
+cd path-assessment && npm i
 ```
 
 
