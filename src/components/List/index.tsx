@@ -71,7 +71,7 @@ const List = () => {
             <img
               src={NothingImage}
               alt="nothing to list"
-              className="w-50 mt-5 justify-center"
+              className="w-10 mt-5 justify-center"
             />
           </div>
         )}

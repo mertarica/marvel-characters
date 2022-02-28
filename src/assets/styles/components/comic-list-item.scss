@@ -1,13 +1,22 @@
 .c-comic-list-item {
   background-color: $tuna-gray-20;
-  padding: 2rem;
+  padding: 1rem .5rem;
+  @include media-breakpoint-up(lg) {
+    padding: 2rem;
+  }
   margin: 1rem 0rem;
   border-radius: 5px;
-  img{
-      object-fit: contain;
+  img {
+    object-fit: contain;
   }
   &__header {
     color: $tuna-gray;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 1rem;
+    @include media-breakpoint-up(lg) {
+      text-align: left;
+    }
   }
   &__description {
     color: $black;
